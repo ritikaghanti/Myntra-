@@ -1,0 +1,161 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+.navbar-brand
+{
+    margin-left: 10px;
+    
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .btn-group
+  {
+    margin-right: 60px;
+      display: flex;
+      justify-content: space-between;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:white;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:rgb(255, 255, 255);}
+
+.btn-secondary
+{
+    background-color:transparent;
+    color: black;
+    border-color: transparent;
+}
+.dropdown
+{
+    padding: 5px;
+    padding-right: 20px;
+    
+    
+}
+.form-control
+{
+    width: 300px;
+}
+.caption
+{
+    display: block;
+}
+
+.ads
+{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.col
+{
+    position: absolute;
+    text-align: center;
+    padding-right: 50px;
+}
+.custom
+{
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    padding: 10px;
+}
+.pic1
+{
+    height: 10px;
+    width: 10px;
+}
+
+footer
+{
+    margin-top: 40px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+.last
+{
+    margin-left: 15px;
+}
+h4
+{
+    text-align: center;
+    columns: #3e4152;
+    padding: 20px;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar
+{
+    position: fixed;
+    width: 100%;
+}
+
+.space1
+{
+    padding-top: 70px;
+}
+
+.fa
+{
+    color: #696e79;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15pt;
+    margin-top: 5px;
+}
