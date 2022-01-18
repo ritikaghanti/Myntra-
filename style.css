@@ -166,5 +166,46 @@ h4
 }
 .column {
     width: 20%;
+    /* outline: ; */
   }
-  
+
+.container{
+    padding-top: 40px;
+    position: absolute;
+    background-color:white;
+    margin: 25px;
+    width: 350px;
+    height: 400px;
+    /* outline: dashed 0.5px black; */
+    position: fixed; /* or absolute */
+  /* top: 30%;
+  left: 35%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.space{
+    padding-top: 80px;
+}
+/* .d-flex justify-content-center{
+      position: fixed;
+} */
+
+.ft{
+    font-size:1.5vw; 
+    text-align: left;
+   
+}
+#colo{
+    font-size:1.5vw; 
+    text-align: left;
+    color: #696e79;
+    text-decoration: none;
+}
+#colotag{
+    color: #ff3c6c; 
+    text-decoration: none;
+}
+#ctbt{
+    color:white; height: 35px; width: 200px; background-color:#ff3c6c ; font: bold 14px Arial;
+}

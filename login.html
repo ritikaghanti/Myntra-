@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+<link rel="stylesheet" href="style.css">
+
+</head>
+    <body style="background:#ffecec;">
+            <!--Navigation-->
+    <nav class="navbar bg-light navbar-light navbar-expand-lg ">
+        <a href="first.html" class="navbar-brand"> <img src="Pictures/logosmall.png" alt="" height="30" width="30"></a>  
+
+
+        <div class="dropdown">
+          <button class="dropbtn">Men</button>
+          <div class="dropdown-content">
+            <a href="https://www.myntra.com/men-tshirts">T-shirts</a>
+            <a href="https://www.myntra.com/men-casual-shirts">Casual shirts</a>
+            <a href="https://www.myntra.com/men-formal-shirts">Formal Shirts</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Women</button>
+          <div class="dropdown-content">
+            <a href="https://www.myntra.com/women-kurtas-kurtis-suits">Kurtas&Suits</a>
+            <a href="https://www.myntra.com/women-ethnic-wear">Ethnic Wear</a>
+            <a href="https://www.myntra.com/skirts-palazzos">Skirts&Plazzos</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Kids</button>
+          <div class="dropdown-content">
+            <a href="https://www.myntra.com/kids?f=Categories%3AClothing%20Set%2CDungarees%3A%3AGender%3Aboys%2Cboys%20girls">Clothing set</a>
+            <a href="https://www.myntra.com/kids?f=Categories%3ALounge%20Shorts%2CShorts%3A%3AGender%3Aboys%2Cboys%20girls">Shorts</a>
+            <a href="https://www.myntra.com/kids?f=Categories%3ABoxers%2CBriefs%2CInnerwear%20Vests%2CNight%20suits%2CSleepsuit%3A%3AGender%3Aboys%2Cboys%20girls">Inner Sleepwear</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown">
+          <button class="dropbtn">Home&Living</button>
+          <div class="dropdown-content">
+            <a href="https://www.myntra.com/bedsheets">Bedsheets</a>
+            <a href="https://www.myntra.com/bedding-sets">Bedding sets</a>
+            <a href="https://www.myntra.com/carpets">Carpets</a>
+          </div>
+        </div>
+
+
+<div class="container-fluid">
+  <form class="d-flex">
+    <input class="form-control me-2" type="search" placeholder="Search for products,brands and more" aria-label="Search">
+  </form>
+</div>
+
+<div class="btn-group">
+    <button class="btn btn-secondary btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+     <!-- <img src="pictures/profile.png" alt="" width="20" height="20"> 
+     <span class="caption">Profile</span> -->
+    </button>
+    <ul class="dropdown-menu custom dropdown-menu-right" >
+      Welcome
+      To access account and manage orders
+      <a href="login.html">
+      <button type="button" class="btn btn-outline-danger">Login/Sign Up</button>
+    </a>
+      <hr size="4" width="100%" color="black">  
+      <a href="https://www.myntra.com/my/orders" style="text-decoration: none; color: #000;">Orders</a><br>
+      <a href="https://www.myntra.com/wishlist" style="text-decoration: none; color: #000;">Wishlist</a><br>
+      <a href="https://www.myntra.com/giftcard https://www.myntra.com/giftcard" style="text-decoration: none; color: #000;">Gift Card</a><br>
+      <a href="https://www.myntra.com/contactus" style="text-decoration: none; color: #000;">Contact Us</a><br>
+      <a href="https://www.myntra.com/myntrainsider?cache=false" style="text-decoration: none; color: #000;">Myntra Insider</a><br>
+      <hr size="4" width="100%" color="black">
+      <a href="https://www.myntra.com/my/myntracredit" style="text-decoration: none; color: #000;">Myntra credit</a><br>
+      <a href="https://www.myntra.com/my/coupons" style="text-decoration: none; color: #000;">Coupons</a><br>
+      <a href="https://www.myntra.com/my/savedcards" style="text-decoration: none; color: #000;">Saved Cards</a><br>
+      <a href="https://www.myntra.com/my/address" style="text-decoration: none; color: #000;">Saved Addresses</a><br>
+    </ul>
+    <button class="btn btn-secondary btn-sm" type="button">
+        <img src="pictures/heart.png" alt="" height="20" width="20">
+        <span class="caption">Wishlist</span>
+      </button>
+
+      <button class="btn btn-secondary btn-sm " type="button" >
+          <img src="pictures/bag.png" alt="" height="20" width="20">
+          <span class="caption">Bag</span>
+      </button>
+  </div>
+</nav>
+
+<form action="datalogin.php" style="border:1px solid #ccc" method="POST" enctype="multipart/form-data">
+  <div class="space">
+  </div>
+  
+  <!-- <div class="d-flex justify-content-center"> -->
+    <!-- <div class="row row-centered pos">
+      <div class="col-lg-8 col-xs-12 col-centered">
+    <div class="container">
+      
+      <h3>Login or Signup</h3><br>
+      
+      <p>Mobile Number</p>
+      <input type="text" placeholder="+91 Mobile Number" name="number" required><br><br>
+      <h6>Password</h6>
+      <input type="text" placeholder="Password" name="password" required>
+      
+      <h6 style="color: grey;">By continuing, I agree to the <a href="https://www.myntra.com/termsofuse" style="color: #ff3c6c; text-decoration: none;">Terms of Use</a> & <a href="https://www.myntra.com/privacypolicy" style="color: #ff3c6c; text-decoration: none;">Privacy Policy</a></h6>
+      <br>
+
+      <input type="submit" value="Submit" style="color:white; height: 35px; width: 200px; background-color:#ff3c6c ; font: bold 14px Arial;">
+      
+      <br><br>
+      
+      <h6 style="color: grey;">Have trouble logging in? <a href="https://www.myntra.com/recovery?referer=https%3A%2F%2Fwww.myntra.com%2F" style="color: #ff3c6c; text-decoration: none;">Get help</a></h6>
+    </div>
+    </div> 
+    </div> -->
+    
+
+    <section class="vh-100" >
+      <!-- <div class="container py-5 h-100"> -->
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card shadow-2-strong">
+              <div class="card-body p-5 text-center">
+    
+                <h3 class="mb-5">Login or Signup</h3>
+                <p class="ft">Mobile Number:</p>
+                <div class="form-outline mb-4">
+                  <input type="text" placeholder="+91 Mobile Number" name="number" required class="form-control form-control-lg" />
+                  <!-- <label class="form-label" for="typeEmailX-2">Email</label> -->
+                </div>
+    
+                <div class="form-outline mb-4">
+                  <!-- <p id="ft"  style="font-size:1vw";>Password:</p> -->
+                  <p class="ft">Password:</p>
+                  <input type="password" name="password" required placeholder="Password" class="form-control form-control-lg" />
+                  <!-- <label class="form-label" for="typePasswordX-2">Password</label> -->
+                </div>
+                <!--     
+                <p style="font-size:1.5vw;">Checkbox</p>
+                <div class="form-check d-flex justify-content-start mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="form1Example3"
+                  />
+                  <label class="form-check-label" for="form1Example3" > Remember password </label>
+                </div> -->
+    
+                
+                <h6 id="colo">By continuing, I agree to the <a href="https://www.myntra.com/termsofuse" id="colotag">Terms of Use</a> & <a href="https://www.myntra.com/privacypolicy" id="colotag">Privacy Policy</a></p>
+                <br>
+          
+                <!-- <input type="submit" value="Submit" style="color:white; height: 35px; width: 200px; background-color:#ff3c6c ; font: bold 14px Arial;"> -->
+                
+                <!-- <br><br> -->
+                
+                <p class="ft">Have trouble logging in? <a href="https://www.myntra.com/recovery?referer=https%3A%2F%2Fwww.myntra.com%2F" id="colotag">Get help</a></h6>
+                <button class="btn btn-primary btn-lg btn-block" type="submit" id="ctbt">Continue</button>
+                <hr class="my-4">
+    
+                <!-- <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;" type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+                <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;" type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button> -->
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    </form>
+    </body>
+</html>
